@@ -1,0 +1,15 @@
+#import { Module } into Cosmos from "cosmos/cosmos.eth"
+
+type Module {
+    instantiate(name: String!): InstantiateResult!
+    updateName(name: String!): Boolean!
+    sayHello: String!
+}
+
+type InstantiateResult {
+    result: String!
+}
+
+#type SampleResult {
+#    result: String!
+#}
