@@ -10,7 +10,3 @@ A simple starter template for an AssemblyScript Polygasm smart contract.
 
 ## Build
 `yarn build`  
-
-## Test
-`yarn test:e2e`  
-`yarn test:workflow`  
