@@ -30,7 +30,7 @@ describe("Template Wrapper End to End Tests", () => {
   });
   
   it("instantiate", async () => {
-    const expected: string = "Hello Joe. Polygasm Initialized!";
+    const expected: string = "Hello Joe. Cosmowrap Initialized!";
 
     const result = await client.invoke<App.Template_InstantiateResult>({
       uri: wrapperUri,

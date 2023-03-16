@@ -16,12 +16,12 @@ jobs:
 
       - name: Read .nvmrc
         run: echo ::set-output name=NVMRC::$(cat .nvmrc)
-        id: polygasm-hello-world
+        id: cosmowrap-hello-world
 
       - name: Setup Node.js
         uses: actions/setup-node@master
         with:
-          node-version: '${{ steps.polygasm-hello-world.outputs.NVMRC }}'
+          node-version: '${{ steps.cosmowrap-hello-world.outputs.NVMRC }}'
 
       - name: Install dependencies
         run: yarn install --nonInteractive --frozen-lockfile --prefer-offline
