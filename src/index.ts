@@ -1,6 +1,6 @@
-import {Args_instantiate, InstantiateResult, Cosmos_Module, Args_updateName, Args_sayHello} from "./wrap";
+import {Cosmos_Module, Args_updateName, Args_sayHello, Args_init, InitResult} from "./wrap";
 
-export function instantiate(args: Args_instantiate): InstantiateResult {
+export function init(args: Args_init): InitResult {
   const message: string = `Hello ${args.name}. Polygasm Initialized!`;
 
   Cosmos_Module.DbSet({
