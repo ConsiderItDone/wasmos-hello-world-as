@@ -2,7 +2,7 @@
 
 type Module {
     init(name: String!): InitResult!
-    updateName(name: String!): Boolean!
+    updateName(newName: String!): String!
     sayHello: String!
 }
 

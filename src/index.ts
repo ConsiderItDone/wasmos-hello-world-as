@@ -13,13 +13,13 @@ export function init(args: Args_init): InitResult {
   }
 }
 
-export function updateName(args: Args_updateName): boolean {
+export function updateName(args: Args_updateName): string {
   Cosmos_Module.DbSet({
     key: String.UTF8.encode("name"),
-    value: String.UTF8.encode(args.name),
+    value: String.UTF8.encode(args.newName),
   })
   
-  return true;
+  return "";
 }
 
 export function sayHello(_: Args_sayHello): string {
