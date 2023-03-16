@@ -1,8 +1,8 @@
 # Cosmos Plugin
 
-This folder contains manifest for Polygasm Cosmos Plugin.
+This folder contains manifest for CosmoWrap Cosmos Plugin.
 
-The source code is located [here](https://github.com/ConsiderItDone/polygasm-cosmos-plugin-mock).
+The source code is located [here](https://github.com/ConsiderItDone/cosmowrap-cosmos-plugin-mock).
 
 
 

@@ -1,4 +1,4 @@
-# Polygasm Hello World Smart Contract
+# CosmoWrap Hello World Smart Contract
 
 A simple starter template for an AssemblyScript Polygasm smart contract.
 
