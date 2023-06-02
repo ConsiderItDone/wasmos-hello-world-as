@@ -1,6 +1,6 @@
-# CosmoWrap Hello World Smart Contract
+# Wasmos Hello World Smart Contract
 
-A simple starter template for an AssemblyScript Polygasm smart contract.
+A simple starter template for an AssemblyScript Wasmos smart contract.
 
 # How To Run
 
